@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EB0F535F-4CD2-6B6F-5291-0A88FCAD7EEC}</ProjectGuid>
+    <ProjectGuid>{759DB4C5-5BC7-D203-BE5A-3BF02DCA0DCD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,27 +63,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\FollowPlayer.cs" />
+    <Compile Include="Assets\PlayerCollision.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/abelweldareguy/Desktop/Unity/TestBed/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/abelweldareguy/Desktop/Unity/CubeRaceGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/abelweldareguy/Desktop/Unity/TestBed/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/abelweldareguy/Desktop/Unity/CubeRaceGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/abelweldareguy/Desktop/Unity/TestBed/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/abelweldareguy/Desktop/Unity/CubeRaceGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/abelweldareguy/Desktop/Unity/TestBed/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/abelweldareguy/Desktop/Unity/CubeRaceGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/abelweldareguy/Desktop/Unity/TestBed/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/abelweldareguy/Desktop/Unity/CubeRaceGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/abelweldareguy/Desktop/Unity/TestBed/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/abelweldareguy/Desktop/Unity/CubeRaceGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/abelweldareguy/Desktop/Unity/TestBed/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/abelweldareguy/Desktop/Unity/CubeRaceGame/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.0f2/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -269,13 +270,13 @@
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.0f2/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/abelweldareguy/Desktop/Unity/TestBed/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/abelweldareguy/Desktop/Unity/CubeRaceGame/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/abelweldareguy/Desktop/Unity/TestBed/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/abelweldareguy/Desktop/Unity/CubeRaceGame/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/abelweldareguy/Desktop/Unity/TestBed/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/abelweldareguy/Desktop/Unity/CubeRaceGame/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.0f2/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
